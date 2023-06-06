@@ -1,0 +1,192 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+  position: relative;
+}
+
+.header h1 {
+  font-size: 40px;
+    text-decoration: none;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: Left;
+  display: block;
+  color: #FF9966;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.Leftcolumn {   
+  float: Left;
+  width: 70%;
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+  padding-Left: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: Left;
+  width: 30%;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #333;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #aaa\;
+  margin-top: 20px;
+}
+@keyframes fade-in-out {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  width: 50px;
+  height: 70px;
+  margin: 10px;
+  position: relative;
+}
+img {
+  width: 30%;
+  height: 70%;
+  animation: fade-in-out 8s linear infinite;
+}
+
+.image-container:nth-child(2) img {
+  animation-delay: 2s;
+}
+
+.image-container:nth-child(3) img {
+  animation-delay: 4s;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+
+  <h1><i><font face="papyrus" color="black" size="7">MY WEBSITE</font></i></h1>
+  <p>IMS 456: INDIVIDUAL ASSIGNEMENT</p><marquee behavior="alternate" direction="left" scrollamount="7"> 
+  <font face="lucida handwriting" color="black" size="4"><br> お会いできて嬉しいです。私のウェブサイトをご覧ください。(Nice to meet you. Please visit my website.)</br> </font> 
+   </marquee>
+</div>
+
+<div class="topnav">
+  <a href="file:///C:/Users/user/Desktop/IMS456/index.html">HOME</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/biodata.html">BIODATA</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/education.html">EDUCATION</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/exprience.html">EXPERIENCE</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/achievement.html">ACHIEVEMENT</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/family.html">FAMILY</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/gallery.html">GALLERY</a>
+   <iframe style="float:right" src="https://free.timeanddate.com/clock/i8o2e1eu/n4366/tlmy/fn13/tcccc/ftb/bo2/tt0/tm1/td2/th2/ts1/ta1/tb2" frameborder="50" width="205" height="60"></iframe> 
+</div> 
+<div class="card">
+	<center>
+    <h2><font color=#FF9966 size="30" face="lucida handwriting"> FAMILY </font></h2>
+     <center> <a href="img/family.jpg"> <img src="img/family.jpg" width="10" height="70" border="5"> </a> </center> 
+      <center> <p><p> <font face="copperplate" color="orange"><b>The picture above shows a picture of my family where the head of the family is Mr. Mohd Radzmi and his wife are the late Mrs. Norizan Othman. My father works as an officer on Felda.
+	  Their position is in the middle of the picture. I have 4 siblings and I am the 2nd child. My brother is Mr. Muhammad Fahmi works in Klang and is married to his partner Puan Sharina. They have been blessed with a child, Naura's sister. 
+	  The position can be referred to in the picture for the couple wearing black shirts and standing at the end. I have 2 younger sisters, Cik Umairah and Cik Aiman. Umairah is 21 years old and is continuing her degree studies at Uitm Jengka taking an Office Management course. Meanwhile, the younger brother,
+	  Aiman ​​is waiting for the SPM results to come out</font></b>
+               <p><font face="lucida handwritting" color="orange" size="8">My Precious Treasure</font></p> 
+               </center> 
+</div> 
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Music</h2>
+      <div> <audio id="player" "autoplay loop">
+    <source src="audio/Only - Lee Hi.flac" type="audio/FLAC">
+    </audio>
+    
+    <audio autoplay controls>
+    
+    <source src="audio/Only - Lee Hi.flac" type="audio/FLAC">
+    </audio>
+    
+    </div>
+      <p>Only by Lee Hi</p>
+    </div>
+  </div>
+  </div>
+</div>
+</html>
+<div class="footer">
+  <h2><font color="black">Copyright © 2023 MUHAMMAD IMAN NUR HAKIM BIN MOHD RADZMI.
+Recommended Browser Google Chrome Resolution 1366x768.
+Last Updated 8 JUNE 2023.
+All Rights Reserved</font></h2>
+</div>
+
+</body>
+</html>

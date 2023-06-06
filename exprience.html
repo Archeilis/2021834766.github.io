@@ -1,0 +1,222 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+  position: relative;
+}
+
+.header h1 {
+  font-size: 40px;
+    text-decoration: none;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: Left;
+  display: block;
+  color: #FF9966;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.Leftcolumn {   
+  float: Left;
+  width: 70%;
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+  padding-Left: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: Left;
+  width: 30%;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #333;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #aaa\;
+  margin-top: 20px;
+}
+@keyframes fade-in-out {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  width: 50px;
+  height: 70px;
+  margin: 10px;
+  position: relative;
+}
+img {
+  width: 30%;
+  height: 70%;
+  animation: fade-in-out 8s linear infinite;
+}
+
+.image-container:nth-child(2) img {
+  animation-delay: 2s;
+}
+
+.image-container:nth-child(3) img {
+  animation-delay: 4s;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+
+  <h1><i><font face="papyrus" color="black" size="7">MY WEBSITE</font></i></h1>
+  <p>IMS 456: INDIVIDUAL ASSIGNEMENT</p><marquee behavior="alternate" direction="left" scrollamount="7"> 
+  <font face="lucida handwriting" color="black" size="4"><br> お会いできて嬉しいです。私のウェブサイトをご覧ください。(Nice to meet you. Please visit my website.)</br> </font> 
+   </marquee>
+</div>
+
+<div class="topnav">
+  <a href="file:///C:/Users/user/Desktop/IMS456/index.html">HOME</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/biodata.html">BIODATA</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/education.html">EDUCATION</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/exprience.html">EXPERIENCE</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/achievement.html">ACHIEVEMENT</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/family.html">FAMILY</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/gallery.html">GALLERY</a>
+   <iframe style="float:right" src="https://free.timeanddate.com/clock/i8o2e1eu/n4366/tlmy/fn13/tcccc/ftb/bo2/tt0/tm1/td2/th2/ts1/ta1/tb2" frameborder="50" width="205" height="60"></iframe> 
+</div>
+<div class="card">
+ <center>
+    <h2><font color=#FF9966 size="30" face="lucida handwriting"> EXPERIENCE </font></h2>
+ 
+<div class="container"> 
+<div class="video-col"> 
+<center> 
+<video src="video/onepiece.MOV" width="400" height="550" controls> </video> 
+ 
+</div> 
+<center> 
+<div class="text-col"> 
+   <h1><font color="FF9966" size="6" face="copperplate"> ONEPIECE EVENT </font></h1> 
+   <p><font color="FF9966" size="4" face="copperplate"> I went to participate in the "OnePiece" anime event at Skytropolis, Genting Highland with my friend. We went to the event on May 31. We enjoyed the shows and figures along with the games available at the event.</font></p>  
+   </div> 
+<div class="container"> 
+<div class="video-col"> 
+<center> 
+<video src="video/skyworld.MOV" width="400" height="550" controls> </video> 
+ 
+</div> 
+<center> 
+<div class="text-col"> 
+   <h1><font color="FF9966" size="6" face="copperplate"> GENTING SKYWORLD </font></h1> 
+   <p><font color="FF9966" size="4" face="copperplate"> I went on vacation in Genting Highland with my friend. We went to Skyworld to spend our holiday there. We went there by car on May 31. We enjoyed the shows and events along with the games available at Skyworld.</font></p>  
+   </div>
+   <div class="container"> 
+<div class="video-col"> 
+<center> 
+<video src="video/blackpink.mp4" width="400" height="550" controls> </video> 
+ 
+</div> 
+<center> 
+<div class="text-col"> 
+   <h1><font color="FF9966" size="6" face="copperplate"> BLACKPINK CONCERT (BORNPINK) </font></h1> 
+   <p><font color="FF9966" size="4" face="copperplate"> I went to the Blackpink concert held at the Shah Alam Stadium with my friend. We went to the concert to meet the members of Blackpink, Jennie, Rose, Lisa and Jisoo. We went there on March 4th. We enjoyed the concert and felt excited when the band performed in front of us. This is one of the unforgettable memories.</font></p>  
+   </div>
+   <div class="container"> 
+<div class="video-col"> 
+<center> 
+<video src="video/latabijih.mp4" width="400" height="550" controls> </video> 
+ 
+</div> 
+<center> 
+<div class="text-col"> 
+   <h1><font color="FF9966" size="6" face="copperplate"> LATA BIJIH </font></h1> 
+   <p><font color="FF9966" size="4" face="copperplate"> I went to walk in Lata Bijih, Tanah Merah with my friend. We went to the cascade to calm our minds before taking the final exam last sem. We went there on January 27. We bathed in the river and enjoyed the natural beauty found there. This is one of the unforgettable memories.</font></p>  
+   </div>
+    <div class="container"> 
+<div class="video-col"> 
+<center> 
+<video src="video/pantai.mp4" width="400" height="550" controls> </video> 
+ 
+</div> 
+<center> 
+<div class="text-col"> 
+   <h1><font color="FF9966" size="6" face="copperplate"> BATU BUROK BEACH </font></h1> 
+   <p><font color="FF9966" size="4" face="copperplate">I went for a walk on Batu Burok Beach with my family. We went to the beach to relax our minds and also spend time together before I continued my studies in Kota Bharu. We went there on 7 MAY 2022. We did various activities and enjoyed the natural beauty found there. This is one of the unforgettable memories.</font></p>  
+   </div>
+</div>
+<div class="footer">
+<h2><font color="FF9966">Copyright © 2023 MUHAMMAD IMAN NUR HAKIM BIN MOHD RADZMI.
+Recommended Browser Google Chrome Resolution 1366x768.
+Last Updated 8 JUNE 2023.
+All Rights Reserved</font>
+</h2>
+</div>
+</body>
+</html>

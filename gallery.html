@@ -1,0 +1,236 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+  position: relative;
+}
+
+.header h1 {
+  font-size: 40px;
+    text-decoration: none;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: Left;
+  display: block;
+  color: #FF9966;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.Leftcolumn {   
+  float: Left;
+  width: 70%;
+  background-image: linear-gradient(to right, #fca311, #ff416c);
+  padding-Left: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: Left;
+  width: 30%;
+  
+}
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #333;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #aaa\;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><i><font face="papyrus" color="black" size="7">MY WEBSITE</font></i></h1>
+  <p>IMS 456: INDIVIDUAL ASSIGNEMENT</p><marquee behavior="alternate" direction="left" scrollamount="7"> 
+  <font face="lucida handwriting" color="black" size="4"><br> お会いできて嬉しいです。私のウェブサイトをご覧ください。(Nice to meet you. Please visit my website.)</br> </font> 
+   </marquee>
+</div>
+
+<div class="topnav">
+  <a href="file:///C:/Users/user/Desktop/IMS456/index.html">HOME</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/biodata.html">BIODATA</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/education.html">EDUCATION</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/exprience.html">EXPERIENCE</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/achievement.html">ACHIEVEMENT</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/family.html">FAMILY</a>
+  <a href="file:///C:/Users/user/Desktop/IMS456/gallery.html">GALLERY</a>
+   <iframe style="float:right" src="https://free.timeanddate.com/clock/i8o2e1eu/n4366/tlmy/fn13/tcccc/ftb/bo2/tt0/tm1/td2/th2/ts1/ta1/tb2" frameborder="50" width="205" height="60"></iframe> 
+</div>
+<div class="card">
+	<center>
+    <h2><font color=#FF9966 size="30" face="lucida handwriting"> GALLERY </font></h2>
+<body>
+  <div class="gallery">
+  <div class="gallery-item">
+    <img src="img/gambar1.jpg" alt="Image 1">
+  </div>
+  <div class="gallery-item">
+    <img src="img/gambar2.jpg" alt="Image 2">
+  </div>
+  <div class="gallery-item">
+    <img src="img/gambar3.jpg" alt="Image 3">
+  </div>
+  <div class="gallery-item">
+    <img src="img/family.jpg" alt="Image 4">
+  </div>
+  <div class="gallery-item">
+    <img src="img/gambar5.jpg" alt="Image 5">
+  </div>
+  <div class="gallery-item">
+    <img src="img/gambar6.jpg" alt="Image 6">
+  </div>
+    <div class="gallery-item">
+    <img src="img/gambar7.jpg" alt="Image 4">
+  </div>
+  <div class="gallery-item">
+    <img src="img/gambar8.jpg" alt="Image 5">
+  </div>
+  <div class="gallery-item">
+    <img src="img/gambar9.jpg" alt="Image 6">
+  </div>
+    <div class="gallery-item">
+    <img src="img/gambar10.jpg" alt="Image 4">
+  </div>
+  <div class="gallery-item">
+    <img src="img/gambar11.jpg" alt="Image 5">
+  </div>
+  <div class="gallery-item">
+    <img src="img/gambar12.jpg" alt="Image 6">
+  </div>
+</div>
+</body>
+</html>
+</div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Music</h2>
+      <div> <audio id="player" "autoplay loop">
+    <source src="audio/Only - Lee Hi.flac" type="audio/FLAC">
+    </audio>
+    
+    <audio autoplay controls>
+    
+    <source src="audio/Only - Lee Hi.flac" type="audio/FLAC">
+    </audio>
+    
+    </div>
+      <p>Only by Lee Hi</p>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="footer">
+<h2>Copyright © 2023 MUHAMMAD IMAN NUR HAKIM BIN MOHD RADZMI.
+Recommended Browser Google Chrome Resolution 1366x768.
+Last Updated 8 JUNE 2023.
+All Rights Reserved
+</h2>
+<html> 
+<head></head> 
+<body>
+<form name-"form]" method-"post" action-"imanhakim0163@gmail.com">
+Name: <input name="name" type="text">
+Subject: <input name="subject" type="text">
+Message: <textarea name="message"></textarea> <input name="submit" type="submit" value="submit">
+</form> 
+</body>
+ </html>
+</div>
+</body>
+</html>
